@@ -1,0 +1,41 @@
+.aside{
+    width: 30%;
+    min-height: 90vh;
+    background-color: rgb(172, 97, 241);
+    color: #fff;
+}
+.card{
+    margin: 20px auto;
+    width: 70%;
+    text-align: center;
+}
+.form{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.name{
+display: flex;
+gap: 10px;
+}
+.name input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 5px 10px;
+    border: none;
+    color: #fff;
+    background-color: blueviolet;
+}
+.btn:hover{
+    background-color: rgb(115, 30, 196);
+}
+.btn:active{
+    scale: 1.02;
+}

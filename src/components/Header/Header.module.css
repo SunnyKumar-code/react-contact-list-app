@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+   padding: 18px 20px;
+   background-color: blueviolet;
+}
+.form{
+    display: flex;
+    gap: 5px;
+}
+.input{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+.button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(183, 123, 240);
+    color: aliceblue;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(83, 4, 156);
+}
+.button:active{
+    scale: 1.02;
+}
